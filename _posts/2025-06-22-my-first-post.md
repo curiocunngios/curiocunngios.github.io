@@ -2,6 +2,10 @@
 
 Here I am sharing a very interesting challenge that involves race condition and tcache poisoning (an easy heap attack)
 
+Download the binary: [binary](../downloads/babyprime_level9.0)
+Download the loader: [ld-linux-x86-64.so.2](../downloads/ld-linux-x86-64.so.2)
+Download libc: [libc.so.6](../downloads/libc.so.6)
+
 # Vulnerability
 
 Let's dive right into the vulnerability of the binary file. First thing first, here are the simplified source code:
