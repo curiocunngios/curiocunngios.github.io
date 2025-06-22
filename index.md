@@ -1,6 +1,10 @@
----
-layout: home
-title: Home
----
-
-Welcome to my blog! Here you'll find posts about [your topics].
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+</head>
+<body>
+    <h1>Welcome to My Blog</h1>
+    <p>This is a test page.</p>
+</body>
+</html>
