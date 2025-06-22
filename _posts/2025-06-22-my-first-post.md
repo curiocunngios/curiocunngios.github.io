@@ -218,7 +218,7 @@ def leak_tcache(r1, r2):
 
 # tcache poisoning
 
-after getting a heap address leak, we can break safe-linking perform tcache poisoning! I will now explain what safe-linking and tcache poisoning are.
+after getting a heap address leak, we can break safe-linking and perform tcache poisoning! I will now explain what safe-linking and tcache poisoning are.
 
 First of all, what is a tcachebin?
 
@@ -285,7 +285,7 @@ So tcache poisoning just means we change to address that chunk 0 points to, so i
 ```
 [0x410] chunk 0 --> <arbitrary address>
 ```
-The reason why we do this is because we can a chunk to be malloc'd at `<arbirary address>`, then we can either leak or modify the content of that address.
+The reason why we do this is because we can have a chunk to be malloc'd at `<arbirary address>`, then we can either leak or modify the content of that address.
 
 That's it, that's tcache poisoning!
 
