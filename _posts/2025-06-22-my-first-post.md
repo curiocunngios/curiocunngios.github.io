@@ -432,7 +432,7 @@ Use arbitrary read to get:
 ```
 1. libc leak for ROP chain
 2. a random leak to get a stack leak (because only around that region we can get a stack address)
-3. stack leak to write our ROP chain on the stack
+3. stack leak to write our ROP chain
 ```
 Actual code:
 ```
